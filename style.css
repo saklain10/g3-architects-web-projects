@@ -6,3 +6,51 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* Shared Styles */
+.display-flex{
+    display: flex;
+}
+.text-gray{
+    color: #424242;
+}
+.text-light-gray{
+    color: #727272;
+}
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+/* Header Styles */
+
+/* Navbar related styles*/
+.brand{
+    font-weight: 700;
+    font-size: 3rem;
+}
+.navbar{
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500px;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* banner related styles */
+
+.banner-content {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 4rem;
+}
