@@ -32,6 +32,9 @@
     border-radius: 8px;
     border: 0;
 }
+.btn-raf{
+    width: 180px;
+}
 
 
 main{
@@ -63,6 +66,7 @@ main > section{
 .nav-item{
     list-style: none;
     margin-right: 30px;
+    font-size: 1.2rem;
 }
 .navbar, .banner{
     max-width: 1440px;
@@ -102,7 +106,7 @@ main > section{
 }
 /* features section styles */
 .features{
-    gap: 100px;
+    gap: 140px;
 }
 #feature-section-title{
     border-left: 5px solid #FF900E;
@@ -121,16 +125,20 @@ main > section{
     margin-bottom: 0px;
 }
 
-#experience-badge{
+#experience-badge {
     padding: 45px 42px;
     font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -100px;
 }
-#experiance-year{
+#experience-year {
     font-size: 4rem;
     font-weight: 700;
 }
-
-
+.feature-architect{
+    width: 100%;
+}
 
 /* Some fact related styles */
 
@@ -156,8 +164,7 @@ main > section{
 }
 .fact-description{
     max-width: 540px;
-    /* margin-top: 0px;
-    margin-bottom: 50px; */
+
 }
 
 .facts-container{
@@ -180,10 +187,9 @@ main > section{
     filter: grayscale(100%);
 }
 
-
 /* responsive media query */
 @media screen and (max-width: 576px) {
-    .navbar, .nav-links, .teams{
+    .navbar, .nav-links, .teams, .features {
         flex-direction: column;
     }
     .team-image-container, .facts-container, .sponsor-companies{
@@ -200,12 +206,32 @@ main > section{
         justify-items: center;
         gap: 50px;
     }
+    #experience-badge{
+        margin-top: 20px;
+        margin-left: 0px;
+    }
 }
 
+/* Footer */
+footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #FFF4E7;
+    margin-top: 130px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+.footer-content{
+    font-size: 20px;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    text-align: center;
+    
+}
 
 /* Medium size device */
 @media screen and (min-width: 576px) and (max-width: 992px){
-    .teams{
+    .teams ,.features{
         flex-direction: column;
     }
     .our-features{
@@ -215,5 +241,9 @@ main > section{
         grid-template-columns: repeat(2, 1fr);
         gap: 50px;
         justify-items: center;
+    }
+    #experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
     }
 }
