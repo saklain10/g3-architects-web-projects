@@ -97,10 +97,16 @@ main > section{
     margin-left: 130px;
     max-width: 530px;
 }
-
 .quick-list{
     font-weight: 500;
 }
+/* features section styles */
+#feature-section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+
 
 
 /* Some fact related styles */
