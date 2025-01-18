@@ -101,15 +101,39 @@ main > section{
     font-weight: 500;
 }
 /* features section styles */
+.features{
+    gap: 100px;
+}
 #feature-section-title{
     border-left: 5px solid #FF900E;
     padding-left: 20px;
 }
+.feature-card {
+    padding: 30px;
+    box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.25);
+    margin-top: 24px;
+    border-radius: 8px;
+}
+.feature-card .feature-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 
+#experience-badge{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+}
+#experiance-year{
+    font-size: 4rem;
+    font-weight: 700;
+}
 
 
 
 /* Some fact related styles */
+
 .fact-card{
     border: 1px solid rgba(255, 144, 14, 1);
     width: 240px;
